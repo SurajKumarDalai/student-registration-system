@@ -64,4 +64,4 @@ Student data remains saved even after refreshing the page.
 
 ## Author
 
-Suraj Kumar Dalai
+Suraj Kumar Dalai project
