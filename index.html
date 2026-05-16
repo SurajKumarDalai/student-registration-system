@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Student Registration System</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Student Registration System</h1>
+
+    <p>
+      Register student details, edit records, and manage data easily.
+    </p>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Form Section -->
+    <section class="form-section">
+
+      <h2>Register Student</h2>
+
+      <form id="studentForm">
+
+        <!-- Student Name -->
+        <div class="input-group">
+          <label for="studentName">Student Name</label>
+
+          <input
+            type="text"
+            id="studentName"
+            placeholder="Enter student name"
+          />
+        </div>
+
+        <!-- Student ID -->
+        <div class="input-group">
+          <label for="studentId">Student ID</label>
+
+          <input
+            type="text"
+            id="studentId"
+            placeholder="Enter student ID"
+          />
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+          <label for="email">Email ID</label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email address"
+          />
+        </div>
+
+        <!-- Contact Number -->
+        <div class="input-group">
+          <label for="contactNumber">Contact Number</label>
+
+          <input
+            type="text"
+            id="contactNumber"
+            placeholder="Enter contact number"
+          />
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="addBtn">
+          Add Student
+        </button>
+
+      </form>
+    </section>
+
+    <!-- Display Section -->
+    <section class="display-section">
+
+      <h2>Registered Students</h2>
+
+      <!-- Table -->
+      <table>
+
+        <!-- Table Heading -->
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <!-- Student Data -->
+        <tbody id="studentList">
+
+          <!-- JavaScript will add rows here -->
+
+        </tbody>
+
+      </table>
+
+    </section>
+
+  </main>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
