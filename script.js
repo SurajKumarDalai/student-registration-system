@@ -1,4 +1,4 @@
-// Select Form Elements
+// Select Form Elements here
 const studentForm = document.querySelector("#studentForm");
 
 const studentName = document.querySelector("#studentName");
